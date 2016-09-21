@@ -2,6 +2,8 @@
 angular example to play with json data (using controller, directive, config) as assignment given some client
 
 
+## Please follow below steps
+
 ```
 git clone https://github.com/Priytam/angular-vid-tube.git
 
@@ -14,14 +16,14 @@ bower install
 try opeoning index.html in browser
 ```
 
-# fst page
+## fst page
 ![alt tag](https://github.com/Priytam/angular-vid-tube/blob/master/readmeImage/fst.jpg)
 
-# scnd page
+## scnd page
 ![alt tag](https://github.com/Priytam/angular-vid-tube/blob/master/readmeImage/scnd.jpg)
 
-# thrd page
+## thrd page
 ![alt tag](https://github.com/Priytam/angular-vid-tube/blob/master/readmeImage/thrd.jpg)
 
-# frth page
+## frth page
 ![alt tag](https://github.com/Priytam/angular-vid-tube/blob/master/readmeImage/fourth.jpg)
