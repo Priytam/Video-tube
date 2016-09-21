@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TV Series Web Application - Amagi</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css" />
+    <link rel='stylesheet' href='bower_components/angular-loading-bar/build/loading-bar.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='styles/style.css' type='text/css'/>
+    <style>
+        body {
+            padding-top: 60px;
+        }
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak
+        {
+            display: none !important;
+        }
+    </style>
+</head>
+<body ng-app="tvSeriesApp">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#/">amagi</a>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <ng-view class="shuffle-animation"></ng-view>
+</div>
+
+
+<!-- /.container -->
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/angular-animate/angular-animate.js"></script>
+<script src='bower_components/angular-loading-bar/build/loading-bar.min.js'></script>
+<script src="bower_components/underscore/underscore.js"></script>
+<script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+
+<script src="app.js"></script>
+<script src="services/tvSeriesService.js"></script>
+<script src="controllers/showInfo.js"></script>
+<script src="directives/showDirective.js"></script>
+<script src="directives/videoPlayer.js"></script>
+
+</body>
+</html>

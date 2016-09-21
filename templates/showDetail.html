@@ -1,0 +1,21 @@
+<div data-ng-repeat="item in show">
+    <div class="col-xs-6">
+        <div class="row">
+            <div class="col-xs-4">
+                <player videos='[{
+                "type":"mp4",
+                "src": item.video_path,
+                "poster":item.thumbnail_path
+                }]' />
+            </div>
+            <div class="col-xs-8">
+                <h4>{{item.aired_local_time}} {{item.brand_name}}</h4>
+                <i class="glyphicon glyphicon-bookmark" style="color: orangered"></i> {{item.client_name}} </br>
+                <i class="glyphicon glyphicon-certificate" style="color: gold"></i> {{item.campaign_name}} </br>
+                <i class="glyphicon glyphicon-sound-dolby" style="color: blue"></i> {{item.brand_name}} </br>
+                <i class="glyphicon glyphicon-map-marker" style="color: skyblue"></i> {{item.city_name}} </br>
+            </div>
+        </div>
+    </div>
+</div>
+
