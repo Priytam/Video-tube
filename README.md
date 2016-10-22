@@ -6,7 +6,7 @@
 ## Please follow below steps
 
 ```
-git clone https://github.com/Priytam/angular-vid-tube.git
+git clone https://github.com/Priytam/Video-tube.git
 
 cd /to/parent/directory/
 
